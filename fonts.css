@@ -1,0 +1,48 @@
+@font-face {
+   font-family: 'CircularStd400Regular';
+   font-weight: 400;
+   font-style: normal;
+   src: url(fonts/CircularStd400Regular.woff2);
+}
+
+@font-face {
+   font-family: 'Helvetica700Bold';
+   font-weight: 700;
+   font-style: normal;
+   src: url(fonts/Helvetica700Bold.woff2);
+}
+
+@font-face {
+   font-family: 'Montserrat400Regular';
+   font-weight: 400;
+   font-style: normal;
+   src: url(fonts/Montserrat400Regular.woff2);
+}
+
+@font-face {
+   font-family: 'Montserrat500Medium';
+   font-weight: 500;
+   font-style: normal;
+   src: url(fonts/Montserrat500Medium.woff2);
+}
+
+@font-face {
+   font-family: 'SofiaPro300Light';
+   font-weight: 300;
+   font-style: normal;
+   src: url(fonts/SofiaPro300Light.woff2);
+}
+
+@font-face {
+   font-family: 'SofiaPro400Regular';
+   font-weight: 400;
+   font-style: normal;
+   src: url(fonts/SofiaPro400Regular.woff2);
+}
+
+@font-face {
+   font-family: 'AvenirBlack';
+   font-weight: 800;
+   font-style: normal;
+   src: url(fonts/AvenirBlack.woff);
+}
