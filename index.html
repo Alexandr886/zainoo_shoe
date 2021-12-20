@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="fonts.css">
+   <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
+   <!--подключение swiper-слайдера-->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+   <title>Zainoo Shoe</title>
+</head>
+<body>
+   <div class="lines">
+      <div class="line line_1"></div>
+      <div class="line line_2"></div>
+      <div class="line line_3"></div>
+      <div class="line line_4"></div>
+   </div>
+   <div class="container">
+      <header class="header">
+         <a href="#" class="header__logo">
+            <img src="img/logo.svg" alt="Logo" class="logo">
+         </a>
+         <div class="login login-desctop">
+            <div class="search">
+               <input class="search__input">
+               <button type="submit" class="search__btn">
+                  <img src="img/icon-search.svg" alt="Search button">
+               </button>
+            </div>
+            <a href="#" class="login__basket">
+               <img src="img/icon-basket.svg" alt="">
+            </a>
+            <a href="#" class="authorization">
+               <img src="img/icon-authorization.svg" alt="">
+            </a>
+         </div>
+         <!-- --------------БУРГЕР-------------- -->
+         <div class="burger-menu">
+            <button type="button" data-modal-target="#modal" class="burger">
+               <span class="burger__line"></span>
+               <span class="burger__line"></span>
+               <span class="burger__line"></span>
+            </button>
+            <div class="modal" id="modal">
+               <button data-close-button class="close-button">&times;</button>
+               <div class="login">
+                  <div class="search">
+                     <input class="search__input">
+                     <button type="submit" class="search__btn">
+                        <img src="img/icon-search.svg" alt="Search button">
+                     </button>
+                  </div>
+                  <a href="#" class="login__basket">
+                     <img src="img/icon-basket.svg" alt="">
+                  </a>
+                  <a href="#" class="authorization">
+                     <img src="img/icon-authorization.svg" alt="">
+                  </a>
+               </div>
+            </div>
+            <div id="overlay"></div>
+         </div>
+         <!-- --------------БУРГЕР КОНЕЦ-------------- -->
+      </header>
+      <main class="main">
+         <div class="sidebar">
+            <nav class="nav">
+               <a href="#" class="nav__link">Shoes</a>
+               <a href="#" class="nav__link">Bags</a>
+               <a href="#" class="nav__link nav__link_new">Accessories</a>
+               <a href="#" class="nav__link">Support</a>
+            </nav>
+            <div class="info">
+               <div class="title">
+                  <h1 class="title__black">Extra<br>Care</h1>
+                  <h1 class="title__white">Foot<br>Tech</h1>
+               </div>
+               <div class="more">
+                  <div class="more__line"></div>
+                  <a href="" class="more__link">learn more</a>
+               </div>
+            </div>
+            <div class="scroll">Scroll down</div>
+         </div>
+         <div class="content">
+            <!--главный контейнер слайдера-->
+            <div class="swiper-container slider">
+               <!--обязательная оболочка-->
+               <div class="swiper-wrapper">
+                  <!--контент 1 слайда-->
+                  <div class="swiper-slide">
+                     <div class="swiper-content">
+                        <div class="description">
+                           <p class="description_text">The best looks; Top Comfort</p>
+                           <h1 class="description_title">Comfy Maxer</h1>
+                           <p class="description_text description_text_big">Our shoes fuse together an insole that cushions every move, laces that you’ll never need to tie again, and an odor-fighting copper thread lining.</p>
+                           <div class="buttons">
+                              <button class="button button-black">
+                                 <img src="img/icon-for-btn-black.svg" alt="button's logo">
+                                 <p class="button__text button__text_black">Add To Cart</p>
+                              </button>
+                              <button class="button button-white" data-popupmodal-target="#popupmodal">
+                                 <img src="img/icon-for-btn-white.svg" alt="button's logo">
+                                 <p class="button__text button__text_white">Watch Intro</p>
+                              </button>
+                           </div>
+                        </div>
+                        <div class="big-info">94</div>
+                        <div class="shoe-cover">
+                           <img src="img/shoe01-removebg.png" alt="shoe one" class="shoe-cover__img">
+                        </div>
+                     </div>
+                  </div>
+                  <!--контент 2 слайда-->
+                  <div class="swiper-slide">
+                     <div class="swiper-content">
+                        <div class="description">
+                           <p class="description_text">The best looks; Top Comfort</p>
+                           <h1 class="description_title">Bright style</h1>
+                           <p class="description_text description_text_big">Ideal for city breaks, sports or hiking. Thanks to the innovative GORE-TEX water-repellent membrane and unique sole, walking even in heavy rain will not be uncomfortable and will be an enjoyable adventure.</p>
+                           <div class="buttons">
+                              <button class="button button-black">
+                                 <img src="img/icon-for-btn-black.svg" alt="button's logo">
+                                 <p class="button__text button__text_black">Add To Cart</p>
+                              </button>
+                              <button class="button button-white" data-popupmodal-target="#popupmodal">
+                                 <img src="img/icon-for-btn-white.svg" alt="button's logo">
+                                 <p class="button__text button__text_white">Watch Intro</p>
+                              </button>
+                           </div>
+                        </div>
+                        <div class="big-info">65</div>
+                        <div class="shoe-cover">
+                           <img src="img/shoe02-removebg.png" alt="shoe one" class="shoe-cover__img">
+                        </div>
+                     </div>
+                  </div>
+                  <!--контент 3 слайда-->
+                  <div class="swiper-slide">
+                     <div class="swiper-content">
+                        <div class="description">
+                           <p class="description_text">The best looks; Top Comfort</p>
+                           <h1 class="description_title">Comfortable and lightweight</h1>
+                           <p class="description_text description_text_big">Waterproof shoe for running on snow and ice. The Gore-Tex membrane protects the feet from moisture, while the aggressive tread and carbide spikes allow you not to worry about stability on slippery surfaces.</p>
+                           <div class="buttons">
+                              <button class="button button-black">
+                                 <img src="img/icon-for-btn-black.svg" alt="button's logo">
+                                 <p class="button__text button__text_black">Add To Cart</p>
+                              </button>
+                              <button class="button button-white" data-popupmodal-target="#popupmodal">
+                                 <img src="img/icon-for-btn-white.svg" alt="button's logo">
+                                 <p class="button__text button__text_white">Watch Intro</p>
+                              </button>
+                           </div>
+                        </div>
+                        <div class="big-info">37</div>
+                        <div class="shoe-cover shoe-cover-small">
+                           <img src="img/shoe03-removebg.png" alt="shoe one" class="shoe-cover__img">
+                        </div>
+                     </div>
+                  </div>
+                  <!--контент 4 слайда-->
+                  <div class="swiper-slide">
+                     <div class="swiper-content">
+                        <div class="description">
+                           <p class="description_text">The best looks; Top Comfort</p>
+                           <h1 class="description_title">Stylish design</h1>
+                           <p class="description_text description_text_big">The main difference from last year's version is the updated top. Ripstop has been replaced by a lighter and more elastic material. Thanks to this, the fit has become more comfortable without losing the quality of fixation of the foot.</p>
+                           <div class="buttons">
+                              <button class="button button-black">
+                                 <img src="img/icon-for-btn-black.svg" alt="button's logo">
+                                 <p class="button__text button__text_black">Add To Cart</p>
+                              </button>
+                              <button class="button button-white" data-popupmodal-target="#popupmodal">
+                                 <img src="img/icon-for-btn-white.svg" alt="button's logo">
+                                 <p class="button__text button__text_white">Watch Intro</p>
+                              </button>
+                           </div>
+                        </div>
+                        <div class="big-info">28</div>
+                        <div class="shoe-cover shoe-cover-small">
+                           <img src="img/shoe04-removebg.png" alt="shoe one" class="shoe-cover__img">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!--пагинация-->
+               <div class="swiper-pagination"></div>
+            </div>
+         </div>
+         <div class="right-sidebar">
+            <div class="fb-tw-in">
+               <a href="#" class="right-sidebar__link">fb</a>
+               <a href="#" class="right-sidebar__link">tw</a>
+               <a href="#" class="right-sidebar__link">in</a>
+            </div>
+            <div class="about">
+               <a href="#" class="right-sidebar__link">manufacturing</a>
+               <a href="#" class="right-sidebar__link">packaging</a>
+               <a href="#" class="right-sidebar__link">team</a>
+            </div>
+         </div>
+      </main>
+      <!-- МОДАЛЬНОЕ ВИДЕО -->
+      <div class="popup-menu">
+         <div class="popupmodal" id="popupmodal">
+           <button data-popupclose-button class="popup-close-button">&times;</button>
+           <iframe src="https://www.youtube.com/embed/apI7QPv2YnA" title="YouTube video player" frameborder="0"></iframe>
+         </div>
+         <div id="popupoverlay"></div>
+       </div>
+       <!-- МОДАЛЬНОЕ ВИДЕО КОНЕЦ -->
+   </div>
+   <!--подключение swiper-слайдера-->
+   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+   <script src="script.js"></script>
+</body>
+</html>
